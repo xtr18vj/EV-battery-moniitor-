@@ -11,7 +11,7 @@ const AlertItem = ({ icon: Icon, title, status, value, color = 'green' }) => {
   const colors = statusColors[color];
 
   return (
-    <motion.div
+    <motion.dliv
       whileHover={{ scale: 1.02, x: 4 }}
       initial={{ opacity: 0, x: -10 }}
       animate={{ opacity: 1, x: 0 }}
